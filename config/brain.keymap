@@ -95,10 +95,10 @@
 
         default_layer {
             bindings = <
-                        &kp Q       &kp W       &kp F         &kp P           &kp B                        &kp J                 &kp L        &kp U         &kp Y       &kp SE_AE
-            &kp LSHIFT  &hs LGUI A  &hm LALT R  &hm LSHIFT S  &hm LCTRL T     &kp G                        &kp M                 &hm RCTRL N  &hm RSHIFT E  &hm RALT I  &hs RGUI O  &kp SE_AA
-            &kp N2      &kp Z       &kp X       &kp C         &kp D           &kp V                        &kp K                 &kp H        &kp COMMA     &kp DOT     &kp SE_OO   &kp ENTER
-                                                              &lt NUMBER TAB  &kp SPACE  &kp N3   &kp DEL  &lt SYMBOLS_SWE BSPC  &lt FUNC ESC
+                        &kp Q       &kp W       &kp E         &kp R           &kp T                        &kp J        &kp L        &kp U         &kp Y       &kp SE_AE
+            &kp LSHIFT  &kp A       &kp S       &kp D         &kp F           &kp G                        &kp M        &kp N        &kp E         &kp I       &kp SE_OO      &kp SE_AA
+            &kp LCTRL   &kp Z       &kp X       &kp C         &kp V           &kp B                        &kp K        &kp H        &kp COMMA     &kp DOT     &kp SE_MINUS   &kp RGUI
+                                                &lt NUMBER TAB  &kp SPACE  &kp ENTER    &kp DEL  &lt SYMBOLS_SWE BSPC  &lt FUNC ESC
             >;
         };
 
@@ -137,7 +137,7 @@
                                                            &none         &trans        &trans   &trans  &none         &kp N0
             >;
         };
-
+N3
         settings_layer {
             bindings = <
                    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                   &ext_power EP_ON  &ext_power EP_OFF  &none  &none  &none
