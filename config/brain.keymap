@@ -96,8 +96,8 @@
         default_layer {
             bindings = <
                                  &kp Q       &kp W       &kp E         &kp R           &kp T                        &kp Y        &kp U        &kp I         &kp O       &kp P
-            &hm LSHIFT LALT      &kp A       &kp S       &kp D         &kp F           &kp G                        &kp H        &kp J        &kp K         &kp L       &kp SE_OO      &kp SE_AE
-            &hs LGUI LCTRL       &kp Z       &kp X       &kp C         &kp V           &kp B                        &kp N        &kp M        &kp COMMA     &kp DOT     &kp SE_MINUS   &kp SE_AA
+            &hs LSHIFT LALT      &kp A       &kp S       &kp D         &kp F           &kp G                        &kp H        &kp J        &kp K         &kp L       &kp SE_OO      &kp SE_AE
+            &kp LGUI             &hs LCTRL Z &kp X       &kp C         &kp V           &kp B                        &kp N        &kp M        &kp COMMA     &kp DOT     &kp SE_MINUS   &kp SE_AA
                                                         &lt NUMBER TAB  &kp SPACE  &kp ENTER                        &kp DEL  &lt SYMBOLS_SWE BSPC  &lt FUNC ESC
             >;
         };
@@ -115,7 +115,7 @@
             bindings = <
                    &kp SE_DQT       &kp SE_AT         &kp SE_EXCL         &kp SE_PLUS         &kp SE_BSLH                   &kp SE_LPAR   &kp SE_RPAR         &kp SE_UNDER         &kp SE_QMARK      &none
             &none  &hs LGUI SE_SQT  &hm LALT SE_AMPS  &hm LSHIFT SE_STAR  &hm LCTRL SE_GRAVE  &kp SE_LBKT                   &kp SE_MINUS  &hm RCTRL SE_TILDE  &hm RSHIFT SE_EQUAL  &hm RALT SE_PIPE  &kp RGUI  &none
-            &none  &kp SE_PRCNT     &kp SE_HASH       &kp SE_CARET        &kp SE_DLLR         &kp SE_RBKT                   &kp SE_LBRC   &kp SE_RBRC         &kp SE_LT            &kp SE_GT         &none     &none
+            &none  &kp SE_PRCNT     &kp SE_HASH       &kp SE_CARET        &kp SE_DLLR         &kp SE_RBKT                   &kp SE_LBRC   &kp SE_RBRC         &kp SE_LT            &kp SE_GT         &kp COLON &kp SEMI
                                                                           &none               &kp SE_FSLH  &trans   &trans  &trans        &none
             >;
         };
