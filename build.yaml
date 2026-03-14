@@ -26,9 +26,9 @@ include:
   #  shield: urchin_right nice_view_adapter nice_view
 
   # Brain https://github.com/Wesztman/brain
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: brain_left nice_view_adapter nice_view
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: brain_right nice_view_adapter nice_view
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: settings_reset
