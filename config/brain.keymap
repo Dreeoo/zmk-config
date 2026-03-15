@@ -25,7 +25,7 @@
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            quick-tap-ms = <0>;
+            quick-tap-ms = <175>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
@@ -34,7 +34,7 @@
             label = "HOMEROW_MODS_SLOW";
             #binding-cells = <2>;
             tapping-term-ms = <300>;
-            quick-tap-ms = <0>;
+            quick-tap-ms = <175>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
@@ -55,7 +55,7 @@
 │22 23 24 25 26 27│ │28 29 30 31 32 33│
 ╰────────╮34 35 36│ │37 38 39╭────────╯
          ╰────────╯ ╰────────╯       */
-/*    combos {
+    combos {
         compatible = "zmk,combos";
 
         combo_esc {
@@ -70,7 +70,7 @@
         };
         combo_ralt {
             timeout-ms = <50>;
-            key-positions = <17 16>;
+            key-positions = <16 17>;
             bindings = <&kp RALT>;
         };
         combo_lalt {
@@ -88,7 +88,7 @@
             key-positions = <17 18>;
             bindings = <&kp RGUI>;
         };
-    }; */
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -104,10 +104,10 @@
 
         gaming_layer {
             bindings = <
-                                 &kp N1  &kp N2  &kp N3  &kp N4     &kp N5                     &kp J                 &kp L        &kp U         &kp Y       &kp BSPC
-            &kp LSHIFT           &kp A   &kp W   &kp E   &kp R      &kp Y                      &kp M                 &hm RCTRL N  &hm RSHIFT E  &hm RALT I  &hs RGUI O  &none
-            &kp TAB              &kp Q   &kp S   &kp D   &kp F      &kp G                      &kp Z                 &kp N        &kp E         &kp I       &kp O       &none
-                                            &kp LCTRL  &kp SPACE  &kp ENTER                    &kp DEL &lt SYMBOLS_SWE BSPC  &lt FUNC ESC
+                                 &kp TAB    &kp Q   &kp W   &kp E      &kp R                      &kp Y        &kp U        &kp I         &kp O       &kp P
+            &kp ESC              &kp LSHIFT &kp A   &kp S   &kp D      &kp F                      &kp H        &kp J        &kp K         &kp L       &kp SE_OO      &kp SE_AE
+            &kp LALT             &kp LCTRL  &kp Z   &kp X   &kp C      &kp V                      &kp N        &kp M        &kp COMMA     &kp DOT     &kp SE_MINUS   &kp SE_AA
+                                              &mo NUMBER  &kp SPACE  &kp G                        &kp ENTER  &lt SYMBOLS_SWE BSPC  &lt FUNC ESC
             >;
         };
 
