@@ -66,7 +66,7 @@
         switch-xy;
 
         /* Tuning */
-        bottom-beta = <255>;
-        stationary-threshold = <1>;
+        bottom-beta = <100>;
+        stationary-threshold = <2>;
     };
 };
