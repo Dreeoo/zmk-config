@@ -62,7 +62,7 @@
         /* Scrolling */
         scroll;
 
-        invert-y;
+        invert-x;
         switch-xy;
 
         /* Tuning */
