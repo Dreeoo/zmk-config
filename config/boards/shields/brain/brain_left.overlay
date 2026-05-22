@@ -6,6 +6,10 @@
 
 #include "brain.dtsi"
 
+&tps43_listener {
+    status = "okay";
+};
+
 &kscan0 {
     diode-direction = "col2row";
     col-gpios

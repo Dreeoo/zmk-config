@@ -5,6 +5,7 @@
  */
 
 #include "brain.dtsi"
+#include <dt-bindings/i2c/i2c.h>
 
 &default_transform {
     col-offset = <5>;
@@ -25,4 +26,47 @@
         , <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // ROW2
         , <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // ROW3
     ;
+};
+
+/* ─── TPS43 Touchpad via nice!view header pins ─────────────────────────
+ *
+ * nice!view header (Brain PCB)       TPS43 adapter
+ * ────────────────────────────       ─────────────
+ * MOSI  (P0.17)  ──────────────►    SDA
+ * SCK   (P0.20)  ──────────────►    SCL
+ * VCC   (3.3V)   ──────────────►    VCC
+ * GND            ──────────────►    GND
+ * CS    (P0.06)  ──────────────►    RDY
+ */
+
+&tps43_split {
+    device = <&tps43>;
+};
+
+&pro_micro_i2c {
+    status = "okay";
+    clock-frequency = <I2C_BITRATE_FAST>;
+
+    tps43: iqs5xx@74 {
+        compatible = "azoteq,iqs5xx";
+        reg = <0x74>;
+        status = "okay";
+
+        /* RDY pin — nice!view CS (P0.06) */
+        rdy-gpios = <&gpio0 6 GPIO_ACTIVE_HIGH>;
+
+        /* Gestures */
+        one-finger-tap;
+        two-finger-tap;
+
+        /* Scrolling */
+        scroll;
+
+        flip-y;
+        switch-xy;
+
+        /* Tuning */
+        bottom-beta = <50>;
+        stationary-threshold = <2>;
+    };
 };
