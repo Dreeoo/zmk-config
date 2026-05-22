@@ -47,8 +47,8 @@
     status = "okay";
     clock-frequency = <I2C_BITRATE_FAST>;
 
-    tps43: iqs5xx@74 {
-        compatible = "azoteq,iqs5xx";
+    tps43: trackpad@74 {
+        compatible = "azoteq,tps43";
         reg = <0x74>;
         status = "okay";
 
@@ -56,17 +56,20 @@
         rdy-gpios = <&gpio0 6 GPIO_ACTIVE_HIGH>;
 
         /* Gestures */
-        one-finger-tap;
+        single-tap;
         two-finger-tap;
 
         /* Scrolling */
         scroll;
 
-        flip-y;
+        invert-y;
         switch-xy;
 
         /* Tuning */
-        bottom-beta = <100>;
-        stationary-threshold = <2>;
+        sensitivity = <110>;
+        scroll-sensitivity = <10>;
+        filter-settings = <0x0B>;
+
+        enable-power-management;
     };
 };

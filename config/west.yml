@@ -2,15 +2,13 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: TooManyLs
-      url-base: https://github.com/TooManyLs
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-driver-azoteq-iqs5xx
-      remote: TooManyLs
-      revision: main
+    - name: zmk_driver_azoteq
+      url: https://github.com/stelmakhdigital/zmk_driver_azoteq
+      revision: master
   self:
     path: config
