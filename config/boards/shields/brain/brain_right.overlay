@@ -67,6 +67,6 @@
 
         /* Tuning */
         bottom-beta = <100>;
-        stationary-threshold = <2>;
+        stationary-threshold = <1>;
     };
 };
