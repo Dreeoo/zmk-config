@@ -27,7 +27,7 @@ include:
 
   # Brain https://github.com/Wesztman/brain
   - board: nice_nano//zmk
-    shield: brain_left
+    shield: brain_left nice_view_adapter nice_view
   - board: nice_nano//zmk
     shield: brain_right
   - board: nice_nano//zmk
