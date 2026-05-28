@@ -37,6 +37,10 @@
     };
 };
 
+&i2c0 {
+    status = "disabled";
+};
+
 &tps43_listener {
     status = "okay";
 };
