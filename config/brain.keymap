@@ -94,6 +94,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
+            display-name = "Base";
             bindings = <
                                  &kp Q       &kp W       &kp E         &kp R           &kp T                        &kp Y        &kp U        &kp I         &kp O       &kp P
             &kp LSHIFT           &hs LALT A  &kp S       &kp D         &kp F           &kp G                        &kp H        &kp J        &kp K         &kp L       &kp SE_OO      &kp SE_AE
@@ -103,6 +104,7 @@
         };
 
         gaming_layer {
+            display-name = "Game";
             bindings = <
                                  &kp TAB    &kp Q   &kp W   &kp E      &kp R                      &kp Y        &kp U        &kp I         &kp O       &kp P
             &kp ESC              &kp LSHIFT &kp A   &kp S   &kp D      &kp F                      &kp H        &kp J        &kp K         &kp L       &kp SE_OO      &kp SE_AE
@@ -112,6 +114,7 @@
         };
 
         symbols_swe_layer {
+            display-name = "Sym";
             bindings = <
                                  &kp SE_DQT       &kp SE_AT         &kp SE_EXCL         &kp SE_PLUS         &kp SE_BSLH             &kp SE_LPAR   &kp SE_RPAR         &kp SE_UNDER         &kp SE_QMARK      &none
             &kp LSHIFT           &kp SE_SQT       &kp SE_AMPS       &kp SE_STAR         &kp SE_GRAVE        &kp SE_LBKT             &kp SE_MINUS  &kp SE_TILDE        &kp SE_EQUAL         &kp SE_PIPE       &kp RGUI  &kp PSCRN
@@ -121,6 +124,7 @@
         };
 
         func_layer {
+            display-name = "Func";
             bindings = <
                    &none     &kp F1  &kp F2   &kp F3   &kp F4                    &kp HOME    &kp PG_UP  &kp UP      &kp PG_DN   &kp DEL
             &none  &none     &kp F5  &kp F6   &kp F7   &kp F8                    &kp END     &kp LEFT   &kp DOWN    &kp RIGHT   &none    &kp C_VOL_UP
@@ -130,6 +134,7 @@
         };
 
         number_layer {
+            display-name = "Num";
             bindings = <
                         &kp N1       &kp N2      &kp N3         &kp N4        &kp N5                         &kp N6        &kp N7        &kp N8         &kp N9       &kp N0
             &kp LSHIFT  &kp N6       &kp N7      &kp N8         &kp N9        &kp N0                         &kp SE_MINUS  &hm RCTRL N4  &hm RSHIFT N5  &hm RALT N6  &hm RGUI COMMA  &none
@@ -139,6 +144,7 @@
         };
 
         settings_layer {
+            display-name = "Settings";
             bindings = <
                    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                   &ext_power EP_ON  &ext_power EP_OFF  &none  &none  &none
             &none  &bt BT_CLR    &none         &none         &none         &none                          &none             &none              &none  &none  &none  &to GAMING
