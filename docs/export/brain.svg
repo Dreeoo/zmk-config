@@ -124,8 +124,8 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 </style>
-<g transform="translate(30, 0)" class="layer-default">
-<text x="0" y="28" class="label" id="default">default:</text>
+<g transform="translate(30, 0)" class="layer-Base">
+<text x="0" y="28" class="label" id="Base">Base:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(84, 81)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -267,8 +267,8 @@ path.combo {
 <g transform="translate(277, 221) rotate(15.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">TAB</text>
-<a href="#number">
-<text x="0" y="24" class="key hold layer-activator">number</text>
+<a href="#Num">
+<text x="0" y="24" class="key hold layer-activator">Num</text>
 </a></g>
 <g transform="translate(335, 245) rotate(30.0)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -286,14 +286,14 @@ path.combo {
 <g transform="translate(564, 243) rotate(-30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">BSPC</text>
-<a href="#symbols_swe">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 64%">symbols_swe</tspan></text>
+<a href="#Sym">
+<text x="0" y="24" class="key hold layer-activator">Sym</text>
 </a></g>
 <g transform="translate(623, 220) rotate(-15.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ESC</text>
-<a href="#func">
-<text x="0" y="24" class="key hold layer-activator">func</text>
+<a href="#Func">
+<text x="0" y="24" class="key hold layer-activator">Func</text>
 </a></g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="98" y="51" width="28" height="26" class="combo"/>
@@ -321,8 +321,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 375)" class="layer-gaming">
-<text x="0" y="28" class="label" id="gaming">gaming:</text>
+<g transform="translate(30, 375)" class="layer-Game">
+<text x="0" y="28" class="label" id="Game">Game:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(84, 81)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -462,8 +462,8 @@ path.combo {
 </g>
 <g transform="translate(277, 221) rotate(15.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#number">
-<text x="0" y="0" class="key tap layer-activator">number</text>
+<a href="#Num">
+<text x="0" y="0" class="key tap layer-activator">Num</text>
 </a></g>
 <g transform="translate(335, 245) rotate(30.0)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -480,14 +480,14 @@ path.combo {
 <g transform="translate(564, 243) rotate(-30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">BSPC</text>
-<a href="#symbols_swe">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 64%">symbols_swe</tspan></text>
+<a href="#Sym">
+<text x="0" y="24" class="key hold layer-activator">Sym</text>
 </a></g>
 <g transform="translate(623, 220) rotate(-15.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ESC</text>
-<a href="#func">
-<text x="0" y="24" class="key hold layer-activator">func</text>
+<a href="#Func">
+<text x="0" y="24" class="key hold layer-activator">Func</text>
 </a></g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="98" y="51" width="28" height="26" class="combo"/>
@@ -515,8 +515,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 749)" class="layer-symbols_swe">
-<text x="0" y="28" class="label" id="symbols_swe">symbols_swe:</text>
+<g transform="translate(30, 749)" class="layer-Sym">
+<text x="0" y="28" class="label" id="Sym">Sym:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(84, 81)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -674,8 +674,8 @@ path.combo {
 <g transform="translate(623, 220) rotate(-15.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ESC</text>
-<a href="#func">
-<text x="0" y="24" class="key hold layer-activator">func</text>
+<a href="#Func">
+<text x="0" y="24" class="key hold layer-activator">Func</text>
 </a></g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="98" y="51" width="28" height="26" class="combo"/>
@@ -703,8 +703,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1124)" class="layer-func">
-<text x="0" y="28" class="label" id="func">func:</text>
+<g transform="translate(30, 1124)" class="layer-Func">
+<text x="0" y="28" class="label" id="Func">Func:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(84, 81)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -892,8 +892,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1498)" class="layer-number">
-<text x="0" y="28" class="label" id="number">number:</text>
+<g transform="translate(30, 1498)" class="layer-Num">
+<text x="0" y="28" class="label" id="Num">Num:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(84, 81)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1077,8 +1077,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1873)" class="layer-settings">
-<text x="0" y="28" class="label" id="settings">settings:</text>
+<g transform="translate(30, 1873)" class="layer-Settings">
+<text x="0" y="28" class="label" id="Settings">Settings:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(84, 81)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1164,8 +1164,8 @@ path.combo {
 </g>
 <g transform="translate(868, 146)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#gaming">
-<text x="0" y="0" class="key tap layer-activator">gaming</text>
+<a href="#Game">
+<text x="0" y="0" class="key tap layer-activator">Game</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(28, 202)" class="key keypos-22">
@@ -1211,8 +1211,8 @@ path.combo {
 </g>
 <g transform="translate(868, 202)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#default">
-<text x="0" y="0" class="key tap layer-activator">default</text>
+<a href="#Base">
+<text x="0" y="0" class="key tap layer-activator">Base</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(277, 221) rotate(15.0)" class="key keypos-34">
