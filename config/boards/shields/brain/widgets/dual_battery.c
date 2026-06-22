@@ -36,9 +36,9 @@ static void set_battery_text(lv_obj_t *label, struct dual_battery_state state) {
     char text[24] = {};
 
     if (state.peripheral_seen) {
-        snprintf(text, sizeof(text), "L:%u%%  R:%u%%", state.central, state.peripheral);
+        snprintf(text, sizeof(text), "L: %u%%  R: %u%%", state.central, state.peripheral);
     } else {
-        snprintf(text, sizeof(text), "L:%u%%  R:--", state.central);
+        snprintf(text, sizeof(text), "L: %u%%  R: --", state.central);
     }
 
     lv_label_set_text(label, text);
