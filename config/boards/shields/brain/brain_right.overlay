@@ -68,7 +68,7 @@
 
         /* Tuning */
         sensitivity = <90>;
-        scroll-sensitivity = <40>;
+        scroll-sensitivity = <30>;
 
         /* Report rate: 100Hz on active + idle-touch so slow finger
          * movement stays smooth (idle-touch default rate caused stutter). */
