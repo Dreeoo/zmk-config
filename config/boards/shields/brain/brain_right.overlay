@@ -67,10 +67,10 @@
         switch-xy;
 
         /* Tuning */
-        sensitivity = <110>;
+        sensitivity = <160>;
         scroll-sensitivity = <40>;
 
-        filter-settings = <0x07>;   /* static IIR + MAV, no dynamic/ALP: smoother slow movement */
+        filter-settings = <0x05>;   /* static IIR only (no MAV/dynamic/ALP): less averaging lag */
 
         /* enable-power-management intentionally removed: the driver's
          * PM force-suspends the chip and disables the RDY interrupt, so
