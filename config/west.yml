@@ -9,6 +9,6 @@ manifest:
       import: app/west.yml
     - name: zmk_driver_azoteq
       url: https://github.com/Dreeoo/zmk_driver_azoteq
-      revision: 638e1387dcb0674ccaaa921c0dfa0a684dd2756d
+      revision: ba92125104af561e90da4c44891f92c725fdb190
   self:
     path: config
