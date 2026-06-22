@@ -67,7 +67,7 @@
         switch-xy;
 
         /* Tuning */
-        sensitivity = <110>;
+        sensitivity = <90>;
         scroll-sensitivity = <40>;
 
         /* Report rate: 100Hz on active + idle-touch so slow finger
