@@ -8,7 +8,7 @@ manifest:
       revision: 64daf698e073e37b6748ac54f4eb48d8666af0b9
       import: app/west.yml
     - name: zmk_driver_azoteq
-      url: https://github.com/stelmakhdigital/zmk_driver_azoteq
-      revision: 2e9d6a8c5b5f7b131bb8d75d121cdcaa4bc75d41
+      url: https://github.com/Dreeoo/zmk_driver_azoteq
+      revision: 638e1387dcb0674ccaaa921c0dfa0a684dd2756d
   self:
     path: config

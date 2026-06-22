@@ -67,8 +67,17 @@
         switch-xy;
 
         /* Tuning */
-        sensitivity = <180>;
+        sensitivity = <110>;
         scroll-sensitivity = <40>;
+
+        /* Report rate: 100Hz on active + idle-touch so slow finger
+         * movement stays smooth (idle-touch default rate caused stutter). */
+        report-rate-ms = <10>;
+
+        /* Hardware resolution provides cursor gain without amplifying
+         * sensor noise the way software sensitivity does. */
+        x-resolution = <3072>;
+        y-resolution = <2048>;
 
         filter-settings = <0x07>;   /* IIR + MAV + static IIR: re-add MAV to smooth jitter */
 
