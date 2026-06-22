@@ -58,17 +58,23 @@
         /* Gestures */
         single-tap;
         two-finger-tap;
+        press-and-hold;          /* hold-to-drag ("grab") */
 
         /* Scrolling */
         scroll;
+        invert-scroll-y;         /* revert scroll direction */
 
         switch-xy;
 
         /* Tuning */
         sensitivity = <110>;
-        scroll-sensitivity = <10>;
+        scroll-sensitivity = <40>;
+
         filter-settings = <0x0B>;
 
-        enable-power-management;
+        /* enable-power-management intentionally removed: the driver's
+         * PM force-suspends the chip and disables the RDY interrupt, so
+         * it cannot wake on touch. Without it, the chip's own low-power
+         * scan still saves power AND wakes on touch. */
     };
 };
